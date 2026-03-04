@@ -3,6 +3,7 @@
 import LandingPage from "./components/LandingPage";
 import Benefits from "./components/Benefits";
 import ThirdSection from "./components/ThirdSection";
+import Steps from "./components/Steps";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <LandingPage />
       <Benefits />
       <ThirdSection />
+      <Steps />
     </div>
   );
 }
