@@ -1,6 +1,6 @@
 const Steps = () => {
   return (
-    <div className="bg-gray-600 text-white mt-20 py-30 px-20">
+    <div className="bg-custom-navy-blue text-white mt-20 py-30 px-20">
         <div>
             <p className="text-cyan-600">STEP</p>
             <h1 className="w-150 font-bold text-3xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum.</h1>
