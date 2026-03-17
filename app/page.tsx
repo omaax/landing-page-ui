@@ -7,6 +7,7 @@ import Steps from "./components/Steps";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Mission from "./components/Mission";
+import Tryit from "./components/Tryit";
 
 export default function Home() {
   return (
@@ -15,12 +16,15 @@ export default function Home() {
         <Navbar />
         <LandingPage />
       </div>
-      <div className="absolute top-230">
+      <div className="absolute top-200">
         <Benefits/>
       </div>
       <ThirdSection />
       <Steps />
       <Mission />
+      <div className="absolute bottom-70">
+        <Tryit />
+      </div>
       <Footer />
     </div>
   );
